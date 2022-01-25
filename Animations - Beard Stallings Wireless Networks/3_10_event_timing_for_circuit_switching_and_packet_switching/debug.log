@@ -1,0 +1,14 @@
+[0424/135526:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://download.macromedia.com/pub/edgetools/animate/2/currentversion.js?t=431 (1)
+[0424/135528:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0424/143125:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0725/213748:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/213758:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/213944:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/214219:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/214310:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0725/214404:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/214414:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/215130:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0727/141543:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0727/141554:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0727/141615:ERROR:ipc_channel_win.cc(401)] pipe error: 232

@@ -1,0 +1,10 @@
+[0620/183934:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0621/053356:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0623/173632:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0623/173639:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0725/220943:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/220953:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0725/221031:ERROR:ipc_channel_win.cc(132)] pipe error: 109
+[0727/142058:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0727/142109:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0727/142139:ERROR:ipc_channel_win.cc(401)] pipe error: 232
