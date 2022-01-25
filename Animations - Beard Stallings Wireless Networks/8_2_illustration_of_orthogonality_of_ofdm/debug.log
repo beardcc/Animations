@@ -1,0 +1,13 @@
+[0506/035139:ERROR:gpu_info_collector_win.cc(91)] Can't retrieve a valid WinSAT assessment.
+[0506/035142:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0506/035152:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0506/035324:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0506/035718:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0506/035807:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0510/180854:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0510/180859:ERROR:gles2_cmd_decoder.cc(5484)] .SharedGraphicsContext: GL ERROR :GL_INVALID_VALUE : glTexParameteri: unknown texture
+[0510/180905:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0730/001917:INFO:CONSOLE(23)] "Edge.$$ - no current symbol for: body", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/nnf34_000/Google%20Drive/WirelessCommSystem/01%20-%20Animations/Chapter%208/8_5_ideal_and_practical_amplifier_characteristics/edge_includes/edge.authoring.4.0.0.min.js (23)
+[0730/001917:INFO:CONSOLE(23)] "Edge.$$ - no current symbol for: body", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/nnf34_000/Google%20Drive/WirelessCommSystem/01%20-%20Animations/Chapter%208/8_5_ideal_and_practical_amplifier_characteristics/edge_includes/edge.authoring.4.0.0.min.js (23)
+[0730/001917:INFO:CONSOLE(23)] "Edge.$$ - no current symbol for: body", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/nnf34_000/Google%20Drive/WirelessCommSystem/01%20-%20Animations/Chapter%208/8_5_ideal_and_practical_amplifier_characteristics/edge_includes/edge.authoring.4.0.0.min.js (23)
+[0730/001917:INFO:CONSOLE(23)] "Edge.$$ - no current symbol for: body", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/nnf34_000/Google%20Drive/WirelessCommSystem/01%20-%20Animations/Chapter%208/8_5_ideal_and_practical_amplifier_characteristics/edge_includes/edge.authoring.4.0.0.min.js (23)

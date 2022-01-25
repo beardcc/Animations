@@ -1,0 +1,8 @@
+[0730/185508:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0730/185519:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0730/185556:ERROR:ipc_channel_win.cc(401)] pipe error: 232
+[0731/123135:WARNING:dns_config_service_win.cc(599)] Failed to read DnsConfig.
+[0731/123139:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0731/123140:WARNING:dns_config_service_win.cc(599)] Failed to read DnsConfig.
+[0731/123145:WARNING:dns_config_service_win.cc(599)] Failed to read DnsConfig.
+[0731/123147:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2

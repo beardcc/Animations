@@ -1,0 +1,3 @@
+[0726/104535:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0726/104545:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0726/104551:ERROR:ipc_channel_win.cc(401)] pipe error: 232

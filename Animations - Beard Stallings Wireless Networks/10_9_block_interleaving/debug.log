@@ -1,0 +1,14 @@
+[0727/195631:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:45
+    at Object.helium.callbackTunnel (v8/app:1:588)
+    at getBuildNumber (http://localhost:54321/welcome_to_project_edge/WelcomeToEdge.js:53:40)
+    at HTMLDocument.<anonymous> (http://localhost:54321/welcome_to_project_edge/WelcomeToEdge.js:326:27)
+    at n (http://localhost:54321/welcome_to_project_edge/edge_includes/jquery-1.7.1.min.js:2:14784)
+    at Object.o.fireWith (http://localhost:54321/welcome_to_project_edge/edge_includes/jquery-1.7.1.min.js:2:15553)
+    at Function.e.extend.ready (http://localhost:54321/welcome_to_project_edge/edge_includes/jquery-1.7.1.min.js:2:9773)
+    at HTMLDocument.c.addEventListener.B (http://localhost:54321/welcome_to_project_edge/edge_includes/jquery-1.7.1.min.js:2:14348)", source:  (1)
+[0731/212439:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0731/212450:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0731/212545:INFO:dhcp_proxy_script_adapter_fetcher_win.cc(267)] Error fetching PAC URL from DHCP: 2
+[0731/212719:ERROR:ipc_channel_win.cc(401)] pipe error: 232
