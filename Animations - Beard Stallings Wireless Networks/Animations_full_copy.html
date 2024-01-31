@@ -1,0 +1,458 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+<!-- meta tags etc. -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="author" content="Pearson">
+<link rel="icon" type="image/vnd.microsoft.icon" href="https://mlm.pearson.com/northamerica/assets/images/favicon/default/favicon.ico">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="https://mlm.pearson.com/northamerica/assets/images/favicon/default/favicon.ico">
+
+
+<script>
+    /*window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+        "gtm_ContainerId": '',
+        "ga4_MeasurementId": ''
+    });*/
+</script>
+
+
+<!-- Google Tag Manager -->
+<script>/*(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','');*/</script>
+<!-- End Google Tag Manager -->
+
+<script> var ie8 = false, ie9 = false; </script>
+<!--[if lt IE 10]>
+  <script src="/bc/bc_0global/inc/html5shiv.min.js"></script>
+  <script> ie8  = true; ie9  = true; </script>
+<![endif]-->
+
+<!-- /meta tags -->  <title>Animations | Wireless Communication Networks and Systems, 1/e</title>
+  
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto&display=swap">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+<link rel="stylesheet" href="/bc/bc_0global/site/inc/msa-master.css">
+    <script>
+var siteinfo = {
+  ms_path: '/ph/wps-wraps/ecs_stallingsbeard_wcns_1',
+  site: 'cw',
+  site_type: 'Companion Website',
+  author_long: 'Cory Beard, William Stallings',
+  author_short: 'Beard/Stallings',
+  book_title: 'Wireless Communication Networks and Systems',
+  book_title_html: '<cite>Wireless Communication Networks and Systems</cite>',
+  book_ed_num: '1',
+  book_ed: '1/e',
+  book_nth: '1st Edition',
+  book_edition: '1st Edition',
+  _ed: ', 1/e',
+  _nth: ', 1st&nbsp;Edition',
+  title_ed: 'Wireless Communication Networks and Systems, 1/e',
+  title_nth: 'Wireless Communication Networks and Systems, 1st&nbsp;Edition',
+  author_title_ed: 'Beard/Stallings, Wireless Communication Networks and Systems, 1/e',
+  author_title_nth: 'Beard/Stallings, Wireless Communication Networks and Systems, 1st&nbsp;Edition',
+  title_ed_html: '<cite>Wireless Communication Networks and Systems</cite>, 1/e',
+  title_nth_html: '<cite>Wireless Communication Networks and Systems</cite>, 1st&nbsp;Edition',
+  author_title_ed_html: 'Beard/Stallings, <cite>Wireless Communication Networks and Systems</cite>, 1/e',
+  author_title_nth_html: 'Beard/Stallings, <cite>Wireless Communication Networks and Systems</cite>, 1st&nbsp;Edition',
+  crumbs_home_text: 'Home',
+  unit_label: 'Chapter',
+  subunit_label: 'Section',
+  mx_discipline: 'Computer Science',
+  generic_cover: 'https://media.pearsoncmg.com/bc/bc_0global/img/pearson-logo-cover.jpg',
+  generic_cover_sm: 'https://media.pearsoncmg.com/bc/bc_0global/img/pearson-logo-cover-small.jpg',
+  cover_img: 'https://www.pearson.com/hipassets/assets/hip/images/bigcovers/0133594173.jpg',
+  cover_img_small: 'https://www.pearson.com/hipassets/assets/hip/images/coverimage/0133594173.jpg',
+  sitebanner: '/bc/bc_0global/site/inc/php/wraps-pearson-banner.php',
+  styleroot: 'cw',
+  sitestyle: '/bc/bc_0global/inc/empty.php',
+  toc_path: '/ph/wps-wraps/ecs_stallingsbeard_wcns_1/msa/inc/toc.json',
+  media_path: '/ph/wps-wraps/ecs_stallingsbeard_wcns_1/msa/inc/media.json',
+  ms_siteroot: '/ph/wps-wraps/ecs_stallingsbeard_wcns_1/cw/',
+  discipline: 'Computer Science',
+  book_isbn: '0133594173',
+  ua_track_id: 'UA-76455200-26',
+  irc_link: ' ',
+  ms_baseurl: 'https://media.pearsoncmg.com'
+}
+</script>
+  
+  <!-- js include -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="/bc/bc_0global/site/inc/utilities.js"></script>
+  <script src="/bc/bc_0global/site/inc/msa-master.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script>
+  <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.17.0/jquery.validate.min.js"></script>
+  <!-- /js include --></head>
+
+<body data-pagename="Animations">
+
+  
+
+<!-- Google Tag Manager (noscript) -->
+<!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id="
+                  height="0" width="0" style="display:none;visibility:hidden;"></iframe></noscript>-->
+<!-- End Google Tag Manager (noscript) -->  <div data-role="popup" id="site-help" data-overlay-theme="b" role="alert">
+    <p class="screen-reader-text">pop-up content start</p>
+    <div data-role="header" role="banner" class="ui-header ui-bar-inherit" data-enhance="false">
+        <h2 id="info_hdr" aria-level="2" role="heading" class="ui-title" data-enhance="false">Site Help</h2>
+        <button data-enhance="false" data-inline="true" class="x-closer ui-btn-right">
+            <span class="screen-reader-text">close and return to site</span>
+            <span aria-hidden="true">&#10006;</span>
+        </button>
+    </div>
+    <div class="help-content">
+        <div>
+            <p>Problems with the site? Visit Pearson Support and contact our 24/7 customer support team.</p>
+            <p>
+                <a href="https://media.pearsoncmg.com/bc/bc_0global/support.html" data-ajax="false" class="open-new ui-btn btn-blue ui-corner-all">
+                    <strong>Pearson Support</strong>
+                </a>
+            </p>
+        </div>
+    </div>
+    <p class="screen-reader-text">pop-up content end</p>
+</div>
+
+  <div data-role="page" id="animations">
+    <!-- banner -->
+<header class="pearson banner">
+    <div class="banner-wrapper">
+        <div class="banner-logo"><span class="sr-only">Pearson</span></div>
+        <div class="banner-title">
+            <p class="banner-title-item book-title-ed">Wireless Communication Networks and Systems, 1st&nbsp;Edition</p>
+            <p class="banner-title-item book-title-author wd author-long wd-bullets"></p>
+        </div>
+    </div>
+    <div class="stripe">
+        <div class="stripe-wrapper">
+            <div class="stripe-left">
+                <a href="#" class="site-help-opener">
+                    <i class="fa fa-info-circle fa-lg link-icon" aria-hidden="true"></i>
+                    <span class="wd-hide-small-accessible">Help</span>
+                </a>
+            </div>
+            <span class="wd site-type"></span>
+        </div>
+    </div>
+</header>
+<!-- /end banner -->
+    <main class="main-content">
+      <div class="wrapper">
+        <header>
+          <nav class="crumbtrail"></nav>
+          <h1>Animations</h1>
+        </header>
+        <div class="vn-container">
+
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 2</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/P_2_handoff_between_two_cells/index.html" class="open-new">Figure P.2 Handoff Between Two Cells</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_2_examples_of_periodic_signal/index.html" class="open-new">Figure 2.2 Examples of Periodic Signals</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_3_s_t_asin_2pft_f/index.html" class="open-new">Figure 2.3 <i>s(t)</i> = <i>A sin(2πft</i>)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_4_addition_of_frequency_components/index.html" class="open-new">Figure 2.4 Addition of Frequency Components (<i>T = 1/f</i>)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_5_frequency_components_of_square_wave/index.html" class="open-new">Figure 2.5 Frequency Components of Square Wave (<i>T = 1/f</i>)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_6_acoustic_spectrum_of_speech_and_music/index.html" class="open-new">Figure 2.6 Acoustic Spectrum of Speech and Music</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_8_analog_and_digital_signaling_of_analog_and_digital_data/index.html" class="open-new">Figure 2.8 Analog and Digital Signaling of Analog and Digital Data</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_9_effect_of_noise_signal/index.html" class="open-new">Figure 2.9 Effect of Noise on a Digital Signal</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_12_fdm_and_tdm/index.html" class="open-new">Figure 2.12 FDM and TDM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/2_13_synchronous_tdm_systems/index.html" class="open-new">Figure 2.13 Synchronous TDM System</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 3</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_1_comparison_of_multiprocessor_systems_lanns_mans_wans/index.html" class="open-new">Figure 3.1 Comparison of Multiprocessor Systems, LANs, MANs, and WANs</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_2_a_sample_local_area_network/index.html" class="open-new">Figure 3.2 A Simple Local Area Network</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_3_simple_switching_network/index.html" class="open-new">Figure 3.3 Simple Switching Network</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_5_circuit_establishment/index.html" class="open-new">Figure 3.5 Circuit Establishment</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_6_the_use_of_packets/index.html" class="open-new">Figure 3.6 The Use of Packets</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_7_packet_switching_datagram_approach/index.html" class="open-new">Figure 3.7 Packet Switching: Datagram Approach</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_8_packet_switching_virtual_circuit_approach/index.html" class="open-new">Figure 3.8 Packet Switching: Virtual Circuit Approach</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_9_effect_of_packet_size_of_transmission_line/index.html" class="open-new">Figure 3.9 Effect of Packet Size of Transmission</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/3_10_event_timing_for_circuit_switching_and_packet_switching/index.html" class="open-new">Figure 3.10 Event Timing For Circuit Switching and Packet Scheduling</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 4</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_1_tcp_ip_concepts/index.html" class="open-new">Figure 4.1 TCP/IP Concepts</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_2_protocol_data_units_in_the_tcp_ip_architecture/index.html" class="open-new">Figure 4.2 Protocol Data Units (PDUs) in the TCP/IP Architecture</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_3_example_of_tcp_credit_allocation_mechanism/index.html" class="open-new">Figure 4.3 Example of TCP Credit Allocation Mechanism</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_6_operation_of_tcp_ip_action_at_sender/index.html" class="open-new">Figure 4.6 Operation of TCP/IP: Action At Sender</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_7_operation_of_tcp_ip_action_at_router/index.html" class="open-new">Figure 4.7 Operation of TCP/IP: Action At Router</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_8_operation_of_tcp_ip_action_at_receiver/index.html" class="open-new">Figure 4.8 Operation of TCP/IP: Action At Receiver</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/4_10_ip_headers/index.html" class="open-new">Figure 4.10 IP Headers</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 5</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_1_wireless_propagation_modes/index.html" class="open-new">Figure 5.1 Wireless Propagation Modes</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_2_antenna_radiation_patterns/index.html" class="open-new">Figure 5.2 Antenna Radiation Patterns</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_4_general_shape_of_ber_vs_ebn0_curves/index.html" class="open-new">Figure 5.4 General Shape of BER vs. <i>E<sub>b</sub></i>/<i>N<sub>0</sub></i> Curves</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_5_sketch_of_three_important_propagation_mechanisms/index.html" class="open-new">Figure 5.5 Sketch of Three Important Propagation Mechanisms: Reflection, Scattering, Diffraction</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_6_two_pulses_in_time_variant_multipath/index.html" class="open-new">Figure 5.6 Two Pulses in Time-Variant Multipath</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_7_typical_slow_and_fast_fading_in_an_urban_mobile_environment/index.html" class="open-new">Figure 5.7 Typical Slow and Fast Fading in an Urban Mobile Environment</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_8_flat_and_frequency_selective_fading/index.html" class="open-new">Figure 5.8 Flat and Frequency Selective Fading</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_9_four_uses_of_mimo/index.html" class="open-new">Figure 5.9 Four Uses of MIMO</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_10_modulation_of_analog_signals_for_digital_data/index.html" class="open-new">Figure 5.10 Modulation of Analog Signals for Digital Data</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_11_16qam_constellation_diagram/index.html" class="open-new">Figure 5.11 16QAM Constellation Diagram</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_12_theoritical_bit_error_rate_for_multilevel_fsk_psk_and_qam/index.html" class="open-new">Figure 5.12 Theoretical Bit Error Rate For Multilevel FSK, PSK, and QAM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_13_error_detection_process/index.html" class="open-new">Figure 5.13 Error Detection Process</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_14_polynomial_division_for_example_5_10/index.html" class="open-new">Figure 5.14 Polynomial Division For Example 5.10</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_15_forward_error_correction_process/index.html" class="open-new">Figure 5.15 Forward Error Correction Process</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_16_how_coding_improves_system_performance/index.html" class="open-new">Figure 5.16 How Coding Improves System Performance</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_17_tanner_graph_for_ldpc_iterative_decoding/index.html" class="open-new">Figure 5.17 Tanner Graph For LDPC Iterative Decoding</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_18_convolutional_encoder_with_nkk_213/index.html" class="open-new">Figure 5.18 Convolutional Encoder with (<i>n</i>, <i>k</i>, <i>K</i>) = (2, 1, 3)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_19_turbo_encoding_and_decoding/index.html" class="open-new">Figure 5.19 Turbo Encoding and Decoding</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_21_model_of_pdu_transmission/index.html" class="open-new">Figure 5.21 Model of PDU Transmission</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_22_go_back_n_arq/index.html" class="open-new">Figure 5.22 Go-back-N ARQ</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_23_conceptual_understanding_of_orthogonal_frequency_division_multiplexing/index.html" class="open-new">Figure 5.23 Conceptual Understanding of Orthogonal Frequency Division Multiplexing</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_24_illustration_of_orthogonality_of_ofdm/index.html" class="open-new">Figure 5.24 Illustration of Orthogonality of OFDM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_25_ifft_implementation_of_ofdm/index.html" class="open-new">Figure 5.25 IFFT Implementation of OFDM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_27_general_model_of_spread_spectrum_digital_communication_system/index.html" class="open-new">Figure 5.27 General Model of Spread Spectrum Digital Communication System</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_28_frequency_hopping_example/index.html" class="open-new">Figure 5.28 Frequency Hopping Example</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_29_frequency_hopping_spread_spectrum_system/index.html" class="open-new">Figure 5.29 Frequency Hopping Spread Spectrum System</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_30_example_of_direct_sequence_spread_spectrum/index.html" class="open-new">Figure 5.30 Example of Direct Sequence Spread Spectrum</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_31_direct_sequence_spread_spectrum_system/index.html" class="open-new">Figure 5.31 Direct Sequence Spread Spectrum System</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/5_32_approximate_spectrum_of_direct_sequence_spread_spectrum_signal/index.html" class="open-new">Figure 5.32 Approximate Spectrum of Direct Sequence Spread Spectrum Signal</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 6</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_1_antenna_radiation_patterns/index.html" class="open-new">Figure 6.1 Antenna Radiation Patterns</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_3_radiation_patterns_in_3d/index.html" class="open-new">Figure 6.3 Radiation Patterns in Three Dimensions</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_5_wireless_propagation_modes/index.html" class="open-new">Figure 6.5 Wireless Propagation Modes</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_6_refraction_of_an_electromagneticwave_pool98/index.html" class="open-new">Figure 6.6 Refraction of An Electromagnetic Wave</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_9_general_shape_of_ber_vs_eb_n0_curves/index.html" class="open-new">Figure 6.9 General Shape of BER vs. <i>E<sub>b</sub></i>/<i>N<sub>0</sub></i> Curves</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_11_sketch_of_three_important_propagation_mechanisms/index.html" class="open-new">Figure 6.11 Sketch of Three Important Propagation Mechanisms: Reflection, Scattering, Diffraction</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_12_two_pulses_in_time_variant_multipath/index.html" class="open-new">Figure 6.12 Two Pulses in Time-Variant Multipath</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_13_typical_slow_and_fast_fading_in_an_urban_mobile_environment/index.html" class="open-new">Figure 6.13 Typical Slow and Fast Fading in an Urban Mobile Environment</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_14_flat_and_frequency_selective_fading/index.html" class="open-new">Figure 6.14 Flat and Frequency Selective Fading</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_16_linear_equalizer_circuit/index.html" class="open-new">Figure 6.16 Linear Equalizer Circuit</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_17_interleaving_data_block_to_spread_the_effect_of_error_bursts/index.html" class="open-new">Figure 6.17 Interleaving Data Block To Spread the Effects of Error Bursts</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/6_18_four_uses_of_mimo/index.html" class="open-new">Figure 6.18 Four Uses of MIMO</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 7</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_1_encoding_and_modulation_techniques/index.html" class="open-new">Figure 7.1 Encoding and Modulation Techniques</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_2_modulation_of_analog_signals_for_digital_data/index.html" class="open-new">Figure 7.2 Modulation of Analog Signals for Digital Data</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_3_full_duplex_fsk_transmission_on_a_voice_grade_line/index.html" class="open-new">Figure 7.3 Full-Duplex FSK Transmission on a Voice-Grade Channel</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_4_mfsk_frequency_use/index.html" class="open-new">Figure 7.4 MFSK Frequency Use (<i>M</i>=4)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_5_differential_phase_shift_keying/index.html" class="open-new">Figure 7.5 Differential Phase-Shift Keying (DPSK)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_6_qpsk_constellation_diagram/index.html" class="open-new">Figure 7.6 QPSK Constellation Diagram</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_7_qpsk_and_oqpsk_modulators/index.html" class="open-new">Figure 7.7 QPSK and OQPSK Modulators</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_9_theoritical_ber_for_various_encoding_schemes/index.html" class="open-new">Figure 7.9 Theoretical Bit Error Rate For Various Encoding Schemes</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_10_theoritical_bit_error_rate_for_multilevel_fsk_psk_and_qam/index.html" class="open-new">Figure 7.10 Theoretical Bit Error Rate For Multilevel FSK, PSK, and QAM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_11_16qam_costellation_diagram/index.html" class="open-new">Figure 7.11 16QAM Costellation Diagram</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_12_qam_modulator/index.html" class="open-new">Figure 7.12 QAM Modulator</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_13_amplitude_modulation/index.html" class="open-new">Figure 7.13 Amplitude Modulation</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_14_spectrum_of_am_signal/index.html" class="open-new">Figure 7.14 Spectrum of an AM Signal</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_15_amplitude_phase_frequency_modulation_of_a_sine_wave_carrier_by_a_sine_wave_signal/index.html" class="open-new">Figure 7.15 Amplitude, Phase, and Frequency Modulation of a Sine-Wave Carrier by a Sine-Wave Signal</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_16_digitizing_analog_signals/index.html" class="open-new">Figure 7.16 Digitizing Analog Data</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_17_pulse_code_modulation_example/index.html" class="open-new">Figure 7.17 Pulse-Code Modulation Example</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_18_effect_of_non_linear_coding/index.html" class="open-new">Figure 7.18 Effect of Nonlinear Coding</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_19_typical_companding_functions/index.html" class="open-new">Figure 7.19 Typical Companding Functions</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_20_example_of_delta_modulation/index.html" class="open-new">Figure 7.20 Example of Delta Modulation</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/7_21_delta_modulation/index.html" class="open-new">Figure 7.21 Delta Modulation</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 8</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/8_1_conceptual_understanding_of_orthogonal_frequency_division_multiplexing/index.html" class="open-new">Figure 8.1 Conceptual Understanding of Orthogonal Frequency Division Multiplexing</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/8_2_illustration_of_orthogonality_of_ofdm/index.html" class="open-new">Figure 8.2 Illustration of Orthogonality of OFDM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/8_3_ifft_implementation_of_ofdm/index.html" class="open-new">Figure 8.3 IFFT Implementation of OFDM</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/8_4_cyclic_prefix/index.html" class="open-new">Figure 8.4 Cyclic Prefix</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/8_5_ideal_and_practical_amplifier_characteristics/index.html" class="open-new">Figure 8.5 Ideal and Practical Amplifier Characteristics</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/8_6_examples_of_linear_and_nonlinear_amplifier_output/index.html" class="open-new">Figure 8.6 Examples of Linear and Non-Linear Amplifier Output</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 9</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_1_general_model_of_spread_spectrum_digital_communication_system/index.html" class="open-new">Figure 9.1 General Model of Spread Spectrum Digital Communication System</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_2_frequency_hopping_example/index.html" class="open-new">Figure 9.2 Frequency Hopping Example</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_3_frequency_hopping_spread_spectrum_system/index.html" class="open-new">Figure 9.3 Frequency Hopping Spread Spectrum System</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_4_slow_frequency_hop_spread_spectrum_using_mfsk_m4_k2/index.html" class="open-new">Figure 9.4 Slow Frequency Hop Spread Spectrum Using MFSK (<i>M</i>=4, <i>K</i>=2)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_5_fast_frequency_hop_spread_spectrum_using_mfsk_m4_k2/index.html" class="open-new">Figure 9.5 Fast Frequency Hop Spread Spectrum Using MFSK (<i>M</i>=4, <i>K</i>=2)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_6_example_of_direct_sequence_spread_spectrum/index.html" class="open-new">Figure 9.6 Example of Direct Sequence Spread Spectrum</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_7_direct_sequence_spread_spectrum_system/index.html" class="open-new">Figure 9.7 Direct Sequence Spread Spectrum System</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_8_example_of_direct_sequence_spread_spectrum_using_bpsk/index.html" class="open-new">Figure 9.8 Example of Direct Sequence Spread Spectrum Using BPSK</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_9_approximate_spectrum_of_direct_sequence_spread_spectrum_signal/index.html" class="open-new">Figure 9.9 Approximate Spectrum of Direct Sequence Spread Spectrum Signal</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_10_cdma_example/index.html" class="open-new">Figure 9.10 CDMA Example</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_11_cdma_in_a_dsss_environment/index.html" class="open-new">Figure 9.11 CDMA in a DSSS Environment</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/9_12_principle_of_rake_receiver/index.html" class="open-new">Figure 9.12 Principle of RAKE Receiver</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 10</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_1_error_detection_process/index.html" class="open-new">Figure 10.1 Error Detection Process</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_2_polynomial_division_for_example_10_4/index.html" class="open-new">Figure 10.2 Polynomial Division For Example 10.4</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_5_forward_error_correction_process/index.html" class="open-new">Figure 10.5 Forward Error Correction Process</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_6_how_coding_improves_system_performance/index.html" class="open-new">Figure 10.6 How Coding Improves System Performance</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_8_tanner_graph_for_ldpc_iterative_decoding/index.html" class="open-new">Figure 10.8 Tanner Graph For LDPC Iterative Decoding</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_9_block_interleaving/index.html" class="open-new">Figure 10.9 Block Interleaving</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_10_convolutional_encoder_with_nkk_213/index.html" class="open-new">Figure 10.10 Convolutional Encoder with (<i>n</i>, <i>k</i>, <i>K</i>) = (2, 1, 3)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_11_trellis_diagram_for_encoder/index.html" class="open-new">Figure 10.11 Trellis Diagram For Encoder</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_13_viterbi_algorithm_with_decoding_window_7/index.html" class="open-new">Figure 10.13 Viterbi Algorithm for  w = 10010100101100… with decoding window b = 7</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_14_turbo_encoding_and_decoding/index.html" class="open-new">Figure 10.14 Turbo Encoding and Decoding</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_17_model_of_pdu_transmission/index.html" class="open-new">Figure 10.17 Model of PDU Transmission</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_18_sliding_window_depiction/index.html" class="open-new">Figure 10.18 Sliding Window Depiction</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_19_example_of_sliding_window_protocol/index.html" class="open-new">Figure 10.19 Example of a Sliding Window Protocol</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/10_20_go_back_n_arq/index.html" class="open-new">Figure 10.20 Go-back-N ARQ</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 11</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_1_example_single_cell_lan_configuration/index.html" class="open-new">Figure 11.1 Example Single-Cell LAN Configuration</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_4_kiviat_graphs_for_data_networks/index.html" class="open-new">Figure 11.4 Kiviat Graphs for Data Networks</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_5_ieee_802_protocol_layers_compared_to_osi/index.html" class="open-new">Figure 11.5 IEEE 802 Protocol Layers Compared to OSI Model</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_6_ieee_802_protocols_in_context/index.html" class="open-new">Figure 11.6 IEEE 802 Protocols in Context</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_7_llc_pdu_in_a_generic_mac_frame_format/index.html" class="open-new">Figure 11.7 LLC PDU in a Generic MAC Frame Format</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_10_ieee_802.11_medium_access_control_logic/index.html" class="open-new">Figure 11.10 IEEE 802.11 Medium Access Control Logic</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_11_ieee_802_11_mac_timing/index.html" class="open-new">Figure 11.11 IEEE 802.11 MAC Timing</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_12_ieee_802_11_mac_frame_format/index.html" class="open-new">Figure 11.12 IEEE 802.11 MAC Frame Format</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_14_ieee_802_11a_channel_scheme/index.html" class="open-new">Figure 11.14 IEEE 802.11a Channel Scheme</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_16_forms_of_aggregation/index.html" class="open-new">Figure 11.16 Forms of Aggregation</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_17_ieee_802_11_performance_factors/index.html" class="open-new">Figure 11.17 IEEE 802.11 Performance Factors</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/11_21_ieee_802_11i_phases_of_operation/index.html" class="open-new">Figure 11.21 IEEE 802.11i Phases of Operation</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 12</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_1_bluetooth_protocol_stack/index.html" class="open-new">Figure 12.1 Bluetooth Protocol Stack</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_2_master_slave_relationships/index.html" class="open-new">Figure 12.2 Master/Slave Relationships</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_3_wireless_network_configurations/index.html" class="open-new">Figure 12.3 Wireless Network Configurations</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_4_frequency_hop_time_division_duplex/index.html" class="open-new">Figure 12.4 Frequency-Hop Time-Division Duplex</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_5_examples_of_multislot_packets/index.html" class="open-new">Figure 12.5 Examples of Multislot Packets</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_7_an_example_of_retransmission_operation/index.html" class="open-new">Figure 12.7 An Example of Retransmission Operation</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/12_8_token_bucket_scheme/index.html" class="open-new">Figure 12.8 Token Bucket Scheme</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 13</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/13_2_frequency_reuse_patterns/index.html" class="open-new">Figure 13.2 Frequency Reuse Patterns</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/13_7_handoff_between_two_cells/index.html" class="open-new">Figure 13.7 Handoff Between Two Cells</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/13_8_example_distribution_of_traffic_in_a_cell_with_capacity_10/index.html" class="open-new">Figure 13.8 Example Distribution of Traffic in a Cell with Capacity 10</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 14</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/14_2_overview_of_the_epc_lte_architecture/index.html" class="open-new">Figure 14.2 Overview of the EPC/LTE Architecture</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/14_3_lte_qos_bearers/index.html" class="open-new">Figure 14.3 LTE QoS Bearers</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/14_8_the_radio_interface_protocol_architecture_and_the_saps_between_different_layers/index.html" class="open-new">Figure 14.8 The Radio Interface Protocol Architecture and the SAPs between Different Layers</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/14_10_spectrum_allocation_for_fdd_and_tdd/index.html" class="open-new">Figure 14.10 Spectrum Allocation for FDD and TDD</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/14_13_lte_resource_grid/index.html" class="open-new">Figure 14.13 LTE Resource Grid</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 15</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/15_4_mobile_ip_scenario/index.html" class="open-new">Figure 15.4 Mobile IP Scenario</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/15_8_mobile_ip_encapsulation/index.html" class="open-new">Figure 15.8 Mobile IP Encapsulation</a></li>
+            </ul>
+          </section>
+          <section class="spaced">
+          <h2 class="list-header-b">Chapter 16</h2>
+            <ul data-role="listview" data-inset="true" class="stack">
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_1_coverage_and_elevation_angles/index.html" class="open-new">Figure 16.1 Coverage and Elevation Angles</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_2_satellite_parameters_as_a_function_of_orbital_height/index.html" class="open-new">Figure 16.2 Satellite Parameters as a Function of Orbital Height</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_3_geostationary_earth_orbit_geo/index.html" class="open-new">Figure 16.3 Geostationary Earth Orbit (GEO)</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_6_typical_satellite_footprint/index.html" class="open-new">Figure 16.6 Typical Satellite Footprint</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_8_satellite_communication_configurations/index.html" class="open-new">Figure 16.8 Satellite Communication Configurations</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_12_example_of_tdma_frame_format/index.html" class="open-new">Figure 16.12 Example of TDMA Frame Format</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_13_tdma_operation/index.html" class="open-new">Figure 16.13 TDMA Operation</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_15_ss_tdma_operation/index.html" class="open-new">Figure 16.15 SS/TDMA Operation</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_18_fixed_broadband_wireless_configuration/index.html" class="open-new">Figure 16.18 Fixed Broadband Wireless Configuration</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_21_ieee_802_16_mac_pdu_formats/index.html" class="open-new">Figure 16.21 IEEE 802.16 MAC PDU Formats</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_22_ieee_802_16_services/index.html" class="open-new">Figure 16.22 IEEE 802.16 Services</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_23_ieee_802_16_ofdma_frame_structure_in_tdd_mode/index.html" class="open-new">Figure 16.23 IEEE 802.16 OFDMA Frame Structure in TDD Mode</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_24_ieee_802_16_ofdma_frame_structure_in_fdd_mode/index.html" class="open-new">Figure 16.24 IEEE 802.16 OFDMA Frame Structure in FDD Mode</a></li>
+              <li><a href="Animations%20-%20Beard%20Stallings%20Wireless%20Networks/16_25_the_electric_power_grid/index.html" class="open-new">Figure 16.25 The Electric Power Grid</a></li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- begin footer include -->
+<footer class="linkwell">
+  <h2 class="sr-only">Information Links</h2>
+  <div class="wrapper clearfix">
+    <div class="linkwell-column">
+      <h3 class="heading">Pearson Higher Education</h3>
+      <ul>
+        <li><a href="https://www.pearson.com/us/about.html">About Us</a></li>
+        <li><a href="https://www.pearson.com/us/higher-education/customers/educators.html">Educators</a></li>
+        <li><a href="https://www.pearson.com/us/higher-education/customers/administrators-deans.html">Academic Executives</a></li>
+        <li><a href="https://www.pearson.com/us/higher-education/customers/students.html">Students</a></li>
+        <li><a href="https://www.pearson.com/us/higher-education/customers.html">Other Customers</a></li>
+      </ul>
+    </div>
+
+    <div class="linkwell-column">
+      <h3 class="heading">Browse our Catalog</h3>
+      <ul>
+        <li><a href="https://www.pearson.com/us/higher-education.html">Pearson Higher Education</a></li>
+      </ul>
+      <h3 class="heading">Contact a Rep</h3>
+      <ul>
+        <li><a href="https://www.pearson.com/us/contact-us/find-your-rep.html">Find your Pearson rep</a></li>
+      </ul>
+    </div>
+
+    <div class="linkwell-column">
+      <h3 class="heading">Technical Help</h3>
+      <ul>
+        <li><a href="https://support.pearson.com/getsupport/">Pearson Technical Support</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrapper legal small">
+    Copyright &copy; <span class="wd current-year"></span> 
+    Pearson Education. All rights reserved.&nbsp;&nbsp;
+    <ul class="ul-inline">
+      <li><a href="https://www.pearson.com/us/terms-of-use.html">Terms of Use</a>&nbsp;|&nbsp;</li>
+      <li><a href="https://www.pearson.com/us/privacy-statement.html">Privacy Policy</a>&nbsp;|&nbsp;</li>
+      <li><a href="https://www.pearson.com/us/contact-us/permissions.html">Permissions</a>&nbsp;|&nbsp;</li>
+      <li><a href="https://www.pearson.com/corporate/contact-us/report-piracy.html">Report Piracy</a>&nbsp;|&nbsp;</li>
+      <li><a href="https://www.pearson.com/us/accessibility.html">Accessibility</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="back-to-top animate-top">
+  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+  <span class="sr-only"> Go to the top of this page</span>
+</div>
+
+<script>var sms = false;</script>
+<!-- /end footer include -->  </div>
+
+</body>
+
+</html>
