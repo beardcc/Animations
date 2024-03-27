@@ -46,7 +46,7 @@ var symbols = {
                 display: 'block',
                 type: 'text',
                 rect: ['1282px', '1036px','530px','150px','auto', 'auto'],
-                text: "Inclination angle",
+                text: "Minimum inclination angle",
                 align: "left",
                 font: ['\'Times New Roman\', Times, serif', [375, "%"], "rgba(0,0,0,1)", "bold", "none", "normal"]
             },
